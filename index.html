@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do app</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="time"></div>
+        <span class="header--title">
+            <h1 class="main-title">
+                To do App
+            </h1>
+            <p class="main-subtitle">
+                Твой список задач
+            </p>
+        </span>
+    </header>
+    <main class="main">
+        <ul class="todo-list">
+            <li class="todo-task">
+                <p class="task-text">Какая-то задача</p>
+                <button data-action="done" class="done-task-button">
+                    <img src="./images/done.png">
+                </button>
+                <button data-action="delete" class="delete-task-button">
+                    <img src="./images/delete.png" style="width: 15px;height:auto">
+                </button>
+            </li>
+        </ul>
+        <input action="" name="addTask" autocomplete="off">
+        <label for="task-input">
+            Добавьте задачу
+        </label>
+        <input name="task-input" type="text" class="task-input">
+        <button type="submit" class="task-add-button">Добавить</button>
+        </form>
+    </main>
+    <footer class="footer">
+
+    </footer>
+</body>
+
+</html>
